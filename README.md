@@ -28,12 +28,15 @@ $ python app.py
 http://localhost:3000/api/register
 ```
 ![postman registration](images/register.png)
+
 2) Copy the key from response and paste it into application textbox and submit it. You can see similar result:
 ![connected app](images/connected_app.png)
+
 3) In order to send file to resource you have to write propers request:
 ```
 http://localhost:3000/api/upload
 ```
 ![uploading file](images/upload_file.png)
+
 3) Results can be seen in console:
 ![result output](images/result.png)
